@@ -1,0 +1,49 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="#E5E5E5"/>
+<g id="Main Page" clip-path="url(#clip0_297015_303)">
+<rect width="1440" height="3200" transform="translate(-312 -2268)" fill="white"/>
+<g id="Section 3">
+<rect id="Light-bg" x="-312" y="-600" width="1440" height="780" fill="#F4F4FD"/>
+<g id="Team Card 1" filter="url(#filter0_ddd_297015_303)">
+<path d="M-156 -368H108V56C108 58.2091 106.209 60 104 60H-152C-154.209 60 -156 58.2091 -156 56V-368Z" fill="white"/>
+<g id="Card Content">
+<g id="Traling Icons">
+<g id="Ellipse">
+<path id="Ellipse_2" d="M28 8C28 13.5228 25.7614 18.5228 22.1421 22.1421C18.5228 25.7614 13.5228 28 8 28C2.47715 28 -2.52285 25.7614 -6.14214 22.1421C-9.76142 18.5228 -12 13.5228 -12 8C-12 2.47715 -9.76142 -2.52285 -6.14214 -6.14214C-2.52285 -9.76142 2.47715 -12 8 -12C13.5228 -12 18.5228 -9.76142 22.1421 -6.14214C25.7614 -2.52285 28 2.47715 28 8Z" fill="#4D5AE5"/>
+<g id="facebook 1" clip-path="url(#clip1_297015_303)">
+<path id="Vector" d="M10.6647 2.65654H12.1254V0.112545C11.8734 0.0778779 11.0067 -0.00012207 9.99736 -0.00012207C7.89136 -0.00012207 6.4487 1.32454 6.4487 3.75921V5.99988H4.12469V8.84388H6.4487V15.9999H9.29803V8.84455H11.528L11.882 6.00055H9.29736V4.04121C9.29803 3.21921 9.51936 2.65654 10.6647 2.65654Z" fill="#F4F4FD"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_ddd_297015_303" x="-162" y="-373" width="276" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.184314 0 0 0 0 0.258824 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_297015_303"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.184314 0 0 0 0 0.258824 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_297015_303" result="effect2_dropShadow_297015_303"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.184314 0 0 0 0 0.258824 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_297015_303" result="effect3_dropShadow_297015_303"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_297015_303" result="shape"/>
+</filter>
+<clipPath id="clip0_297015_303">
+<rect width="1440" height="3200" fill="white" transform="translate(-312 -2268)"/>
+</clipPath>
+<clipPath id="clip1_297015_303">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

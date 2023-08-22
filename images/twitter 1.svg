@@ -1,0 +1,53 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="#E5E5E5"/>
+<g id="Main Page" clip-path="url(#clip0_297015_303)">
+<rect width="1440" height="3200" transform="translate(-248 -2268)" fill="white"/>
+<g id="Section 3">
+<rect id="Light-bg" x="-248" y="-600" width="1440" height="780" fill="#F4F4FD"/>
+<g id="Team Card 1" filter="url(#filter0_ddd_297015_303)">
+<path d="M-92 -368H172V56C172 58.2091 170.209 60 168 60H-88C-90.2091 60 -92 58.2091 -92 56V-368Z" fill="white"/>
+<g id="Card Content">
+<g id="Traling Icons">
+<g id="Ellipse">
+<path id="Ellipse_2" d="M28 8C28 13.5228 25.7614 18.5228 22.1421 22.1421C18.5228 25.7614 13.5228 28 8 28C2.47715 28 -2.52285 25.7614 -6.14214 22.1421C-9.76142 18.5228 -12 13.5228 -12 8C-12 2.47715 -9.76142 -2.52285 -6.14214 -6.14214C-2.52285 -9.76142 2.47715 -12 8 -12C13.5228 -12 18.5228 -9.76142 22.1421 -6.14214C25.7614 -2.52285 28 2.47715 28 8Z" fill="#4D5AE5"/>
+<g id="twitter 1" clip-path="url(#clip1_297015_303)">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M16 3.03888C15.405 3.29988 14.771 3.47288 14.11 3.55688C14.79 3.15088 15.309 2.51288 15.553 1.74388C14.919 2.12188 14.219 2.38888 13.473 2.53788C12.871 1.89688 12.013 1.49988 11.077 1.49988C9.261 1.49988 7.799 2.97388 7.799 4.78088C7.799 5.04088 7.821 5.29088 7.875 5.52888C5.148 5.39588 2.735 4.08888 1.114 2.09788C0.831 2.58888 0.665 3.15088 0.665 3.75588C0.665 4.89188 1.25 5.89888 2.122 6.48188C1.595 6.47188 1.078 6.31888 0.64 6.07788C0.64 6.08788 0.64 6.10088 0.64 6.11388C0.64 7.70788 1.777 9.03188 3.268 9.33688C3.001 9.40988 2.71 9.44488 2.408 9.44488C2.198 9.44488 1.986 9.43288 1.787 9.38888C2.212 10.6879 3.418 11.6429 4.852 11.6739C3.736 12.5469 2.319 13.0729 0.785 13.0729C0.516 13.0729 0.258 13.0609 0 13.0279C1.453 13.9649 3.175 14.4999 5.032 14.4999C11.068 14.4999 14.368 9.49988 14.368 5.16588C14.368 5.02088 14.363 4.88088 14.356 4.74188C15.007 4.27988 15.554 3.70288 16 3.03888Z" fill="#F4F4FD"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_ddd_297015_303" x="-98" y="-373" width="276" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.184314 0 0 0 0 0.258824 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_297015_303"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.184314 0 0 0 0 0.258824 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_297015_303" result="effect2_dropShadow_297015_303"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.184314 0 0 0 0 0.258824 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_297015_303" result="effect3_dropShadow_297015_303"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_297015_303" result="shape"/>
+</filter>
+<clipPath id="clip0_297015_303">
+<rect width="1440" height="3200" fill="white" transform="translate(-248 -2268)"/>
+</clipPath>
+<clipPath id="clip1_297015_303">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

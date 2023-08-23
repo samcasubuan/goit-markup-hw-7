@@ -77,9 +77,16 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 428px;
   padding: 0 15px;
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
 }
 
 .logo {

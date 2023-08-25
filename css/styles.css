@@ -557,10 +557,18 @@ page:focus::after {
   display: flex;
 
   flex-wrap: wrap;
-  width: calc(100% - 20px) / 2;
+  width: calc(100% - 20px) / 3;
   @media screen and (min-width: 1158px) {
     flex-wrap: nowrap;
   }
+}
+
+.filter .list {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  gap: 20px;
 }
 
 .filters .space + .space {
@@ -597,12 +605,18 @@ page:focus::after {
 }
 
 .project-card {
-  flex-basis: calc(100% / 3 - 30px);
+  /*flex-basis: calc(100% / 3 - 30px);*/
   margin-left: 30px;
   margin-top: 30px;
   transition: box-shadow 250ms ease-in-out;
 }
 
+.project-card {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 .substrate-cover-text {
   position: absolute;
   overflow: hidden;

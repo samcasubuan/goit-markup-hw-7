@@ -78,16 +78,16 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-/*1*/
 .container {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  flex-wrap: wrap;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 428px) {
     width: 768px;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 768px) {
     width: 1158px;
   }
 }
@@ -264,7 +264,6 @@ page:focus::after {
   }
 }
 
-/*3*/
 .hero-title {
   color: white;
   line-height: 1.36;
@@ -278,6 +277,10 @@ page:focus::after {
 
   @media screen and (min-width: 700px) {
     font-size: 56px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 1158px;
   }
 }
 
@@ -556,8 +559,6 @@ page:focus::after {
 .filters .list {
   display: flex;
 
-  flex-wrap: wrap;
-  width: calc(100% - 20px) / 3;
   @media screen and (min-width: 1158px) {
     flex-wrap: nowrap;
   }
@@ -602,6 +603,16 @@ page:focus::after {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 1158px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .project-card {
@@ -712,6 +723,7 @@ page:focus::after {
   font-weight: 500;
   margin-bottom: 10px;
   line-height: 1.14;
+  text-align: center;
 }
 
 .benefits .description {
@@ -914,10 +926,6 @@ page:focus::after {
   display: block;
 }
 
-.footer-container form {
-  margin: 0;
-}
-
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -943,6 +951,7 @@ page:focus::after {
   display: block;
   color: var(--white, #fff);
   font-weight: 500;
+
   /* margin-bottom: 16px; */
 }
 
@@ -952,6 +961,7 @@ page:focus::after {
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-input {

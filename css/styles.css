@@ -79,15 +79,14 @@ img {
 }
 
 .container {
-  width: 100%;
+  width: 428px;
   padding: 0 15px;
   margin: 0 auto;
-  flex-wrap: wrap;
 
-  @media screen and (min-width: 428px) {
+  @media screen and (min-width: 768px) {
     width: 768px;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1158px) {
     width: 1158px;
   }
 }
@@ -302,10 +301,9 @@ page:focus::after {
 }
 
 .social-team {
-  padding-top: 10px;
+  margin-top: 40px;
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
 }
 
 .social-team {
@@ -783,9 +781,13 @@ page:focus::after {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -12px;
-  margin-left: -50px;
+
   align-items: baseline;
+
+  @media screen and (min-width: 1158px) {
+    margin-top: -12px;
+    margin-left: -50px;
+  }
 }
 
 .footer {
@@ -797,7 +799,10 @@ page:focus::after {
 
 .footer-address {
   margin-top: 12px;
-  margin-left: 25px;
+
+  @media screen and (min-width: 1158px) {
+    margin-left: 25px;
+  }
 }
 
 .footer-address {
@@ -810,7 +815,9 @@ page:focus::after {
 }
 
 .footer-block {
-  margin-left: 123px;
+  @media screen and (min-width: 1158px) {
+    margin-left: 123px;
+  }
 }
 
 .footer-block {
@@ -932,77 +939,71 @@ page:focus::after {
 }
 
 .footer {
-  margin-top: 12px;
-  margin-left: 25px;
-}
-
-.footer-container form {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -50px;
-}
-
-.footer-label {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -40px;
-  margin-left: -125px;
-  align-items: baseline;
-}
-
-.footer-label .subscribe {
-  margin-right: 20px;
+  @media screen and (min-width: 1158px) {
+    margin-top: 12px;
+    margin-left: 25px;
+  }
 }
 
 .footer-container form {
   display: block;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 1158px) {
+    margin: 0;
+    margin-bottom: -50px;
+  }
+}
+
+.footer-button {
+  text-align: center;
+}
+
+.footer-label {
+  display: block;
+  flex-direction: column;
+  margin-bottom: 16px;
+  color: var(--white, #fff);
+  font-weight: 500;
+
+  @media screen and (min-width: 1158px) {
+    margin-bottom: -40px;
+    margin-left: -125px;
+  }
+}
+
+.footer-label .subscribe {
+  @media screen and (min-width: 1158px) {
+    margin-right: 20px;
+  }
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: center;
 }
 
 .footer-form {
-  width: 453px;
-  height: 80px;
   flex-shrink: 0;
-  margin-left: 80px;
-}
-
-.footer-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-label {
-  display: block;
-  color: var(--white, #fff);
-  font-weight: 500;
-
-  /*margin-bottom: 16px;*/
-}
-
-.footer-label {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 16px;
   text-align: center;
+
+  @media screen and (min-width: 1158px) {
+    width: 453px;
+    margin-left: 80px;
+  }
 }
 
 .footer-input {
   color: var(--white, #fff);
   outline: none;
-  width: 264px;
+  width: 100%;
   height: 40px;
   padding: 8px 16px;
   display: flex;
@@ -1013,6 +1014,10 @@ page:focus::after {
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  @media screen and (min-width: 768px) {
+    width: 264px;
+  }
 }
 
 .footer-input::placeholder {
@@ -1026,6 +1031,7 @@ page:focus::after {
 
 .footer-button {
   height: 40px;
+  width: 165px;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
@@ -1046,17 +1052,17 @@ page:focus::after {
 }
 
 .footer-button {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   /*margin-bottom: -70px;
   margin: 0;*/
 }
 
-.footer-button {
+/*.footer-button {
   padding: 6px;
   margin-left: -35px;
-}
+}*/
 
 .footer-form-subscribe {
   width: 24px;
@@ -1358,6 +1364,10 @@ page:focus::after {
 
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .menu-container.is-open {
@@ -1399,7 +1409,8 @@ page:focus::after {
 
 .mob-address-link {
   /* Link tags doesn't inherit colors */
-  color: inherit;
+
+  color: var(--iriscolor);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -931,11 +931,30 @@ page:focus::after {
   width: 100%;
 }
 
+.footer {
+  margin-top: 12px;
+  margin-left: 25px;
+}
+
 .footer-container form {
+  margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+
+.footer-label {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+  margin-left: -125px;
+  align-items: baseline;
+}
+
+.footer-label .subscribe {
+  margin-right: 20px;
 }
 
 .footer-container form {
@@ -968,7 +987,7 @@ page:focus::after {
   color: var(--white, #fff);
   font-weight: 500;
 
-  /* margin-bottom: 16px; */
+  /*margin-bottom: 16px;*/
 }
 
 .footer-label {
@@ -1030,6 +1049,13 @@ page:focus::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  /*margin-bottom: -70px;
+  margin: 0;*/
+}
+
+.footer-button {
+  padding: 6px;
+  margin-left: -35px;
 }
 
 .footer-form-subscribe {
@@ -1208,7 +1234,7 @@ page:focus::after {
 .form-box {
   display: flex;
   justify-content: flex-start;
-  width: 360px;
+  width: 100%;
   height: 16px;
   gap: 8px;
   margin-bottom: 24px;
@@ -1260,6 +1286,10 @@ page:focus::after {
   gap: 8px;
   padding-left: 24px;
   padding-right: 24px;
+
+  @media screen and (min-width: 728px) {
+    display: none;
+  }
 }
 
 .modal-form-label {
@@ -1335,6 +1365,10 @@ page:focus::after {
 }
 
 /* Mobile Navigation */
+
+.mob-menu-list {
+  margin-top: -100px;
+}
 
 .mob-menu-item {
   margin-bottom: 32px;

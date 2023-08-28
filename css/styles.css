@@ -881,7 +881,7 @@ page:focus::after {
   padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
-  min-width: 408px;
+  min-width: 428px;
   /*min-height: 584px;*/
   height: 100vh;
   border-radius: 4px;

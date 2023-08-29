@@ -99,6 +99,10 @@ img {
   color: var(--grey);
 }
 
+.contact-link {
+  font-size: 20px;
+  font-weight: 500;
+}
 .contacts-menu {
   margin-left: auto;
 }
@@ -1405,7 +1409,7 @@ page:focus::after {
 
 .mob-menu-link {
   display: block;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.18;
   letter-spacing: 0.02em;

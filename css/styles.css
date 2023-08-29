@@ -1398,6 +1398,7 @@ page:focus::after {
 
 .mob-menu-item {
   margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .mob-menu-link {

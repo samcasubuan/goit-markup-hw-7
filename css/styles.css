@@ -295,6 +295,8 @@ page:focus::after {
 .social-team .list {
   display: flex;
   margin-top: 8px;
+  padding: 0;
+  gap: 56px;
 
   flex-wrap: wrap;
 

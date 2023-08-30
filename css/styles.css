@@ -65,6 +65,10 @@ img {
 .section.no-top-padding {
   padding-top: 0;
   display: none;
+
+  @media screen and (min-width: 1158px) {
+    display: block;
+  }
 }
 
 .logo-link {
@@ -79,15 +83,15 @@ img {
 }
 
 .container {
-  width: 428px;
+  max-width: 428px;
   padding: 0 15px;
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
   }
   @media screen and (min-width: 1158px) {
-    width: 1158px;
+    max-width: 1200px;
   }
 }
 
@@ -106,6 +110,13 @@ img {
 
 .contacts-menu {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  @media screen and (min-width: 1158px) {
+    flex-direction: row;
+  }
 }
 
 .nav-menu .item:not(:last-child),
@@ -113,17 +124,16 @@ img {
   margin-right: 70px;
 }
 
-.nav-menu {
-  margin-left: 93px;
+.contacts-menu .item:not(:last-child) {
+  margin-right: 0;
+
+  @media screen and (min-width: 1158px) {
+    margin-right: 40px;
+  }
 }
 
-.nav-menu .list {
-  display: none;
-
-  @media screen and (min-width: 768px) {
-    display: flex;
-    gap: 30px;
-  }
+.nav-menu .item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .nav-menu .page,
@@ -139,6 +149,15 @@ img {
   background-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-menu .contact {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  @media screen and (min-width: 1158px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 .contacts-menu .contact {
@@ -164,8 +183,11 @@ img {
 
   @media screen and (min-width: 768px) {
     display: flex;
-    gap: 30px;
   }
+}
+
+.contacts-menu {
+  align-items: flex-end;
 }
 
 .menu {
@@ -185,6 +207,13 @@ img {
 
 .nav-menu {
   display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+  }
+  @media screen and (min-width: 1158px) {
+    margin-left: 80px;
+  }
 }
 
 .nav-menu .page:hover,
@@ -202,7 +231,7 @@ img {
   width: 0;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 4px;
   transition: width 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 
@@ -215,7 +244,7 @@ img {
   width: 100%;
   position: absolute;
   left: 0px;
-  bottom: -1px;
+  bottom: 4px;
 }
 
 .page:hover::after,
@@ -293,7 +322,6 @@ page:focus::after {
   }
 
   @media screen and (min-width: 768px) {
-    width: 1158px;
   }
 }
 
@@ -404,7 +432,7 @@ page:focus::after {
   padding-bottom: 30px;
   background-color: white;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc(98% / 4 - 30px);
+
   margin-left: 30px;
   margin-top: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -416,7 +444,7 @@ page:focus::after {
   margin: 0;
   align-items: center;
   justify-content: center;
-  gap: 72px;
+  gap: 72px 24px;
 }
 
 .team .item {
@@ -459,6 +487,10 @@ page:focus::after {
   column-gap: 16px;
   row-gap: 72px;
   padding: 0;
+
+  @media screen and (min-width: 1158px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .partners .item {
@@ -470,7 +502,7 @@ page:focus::after {
   }
 
   @media screen and (min-width: 1158px) {
-    width: calc(100% - 100px) / 6;
+    width: calc(100% / 6 - 15px);
   }
 }
 
@@ -665,7 +697,7 @@ page:focus::after {
 
 .description {
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
   height: 100%;
   overflow: hidden;
 }
@@ -679,12 +711,17 @@ page:focus::after {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  gap: 72px;
+  flex-direction: column;
   padding: 0;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .benefits .item {
-  flex-basis: calc(100px / 4 + 30px);
+  flex-basis: calc(100px / 2 - 30px);
 }
 
 .benefits .item {
@@ -704,11 +741,10 @@ page:focus::after {
 
 .benefits .icon {
   display: none;
-}
 
-.benefits {
-  display: flex;
-  flex-direction: column;
+  @media screen and (min-width: 1158px) {
+    display: flex;
+  }
 }
 
 .benefits-svg-icon {
@@ -723,6 +759,10 @@ page:focus::after {
   margin-bottom: 10px;
   line-height: 1.14;
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .benefits .description {
@@ -730,6 +770,14 @@ page:focus::after {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.71;
+
+  @media screen and (min-width: 768px) {
+    width: 356px;
+  }
+
+  @media screen and (min-width: 1158px) {
+    width: 264px;
+  }
 }
 
 .what-we-do {
@@ -833,11 +881,9 @@ page:focus::after {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
 
-.footer-block {
-  @media screen and (min-width: 1158px) {
-    margin-left: 123px;
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
   }
 }
 
@@ -848,6 +894,15 @@ page:focus::after {
   justify-content: center;
   align-items: center;
   margin-bottom: 72px;
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    margin-left: 24px;
+    width: calc(264px - 24px);
+  }
+  @media screen and (min-width: 1158px) {
+    margin-left: 123px;
+  }
 }
 
 .social-footer {
@@ -855,6 +910,10 @@ page:focus::after {
   display: flex;
   justify-content: flex-start;
   gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 0;
+  }
 }
 
 .icon-item {
@@ -898,7 +957,7 @@ page:focus::after {
   padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
-  min-width: 428px;
+  width: 100%;
   /*min-height: 584px;*/
   height: 100vh;
   border-radius: 4px;
@@ -906,10 +965,9 @@ page:focus::after {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  width: 408px;
-
   @media screen and (min-width: 428px) {
     height: auto;
+    width: 408px;
   }
 }
 
@@ -970,9 +1028,14 @@ page:focus::after {
 
 .footer-container form {
   display: block;
-  flex-direction: column;
+
   justify-content: center;
 
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+    align-items: flex-end;
+    column-gap: 24px;
+  }
   @media screen and (min-width: 1158px) {
     margin: 0;
     margin-bottom: -50px;
@@ -990,9 +1053,11 @@ page:focus::after {
   color: var(--white, #fff);
   font-weight: 500;
 
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+
   @media screen and (min-width: 1158px) {
-    margin-bottom: -40px;
-    margin-left: -125px;
   }
 }
 
@@ -1017,6 +1082,10 @@ page:focus::after {
   justify-content: center;
   text-align: center;
 
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    width: calc(264px * 2);
+  }
   @media screen and (min-width: 1158px) {
     width: 453px;
     margin-left: 80px;
@@ -1300,10 +1369,6 @@ page:focus::after {
 
 .form-agree-box {
   margin-bottom: 24px;
-}
-
-.modal {
-  width: 100%;
 }
 
 .modal-form {

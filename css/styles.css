@@ -707,6 +707,22 @@ page:focus::after {
   height: 64px;
 }
 
+.benefits .title {
+  color: var(--grey, #2e2f42);
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1.14;
+  text-align: center;
+}
+
+.benefits .description {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.71;
+}
+
 .what-we-do {
   display: flex;
   flex-wrap: wrap;
@@ -732,22 +748,6 @@ page:focus::after {
   @media screen and (min-width: 1158px) {
     width: calc(100% - 40px) / 4;
   }
-}
-
-.benefits .title {
-  color: var(--grey, #2e2f42);
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  line-height: 1.14;
-  text-align: center;
-}
-
-.benefits .description {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.71;
 }
 
 .section-title {

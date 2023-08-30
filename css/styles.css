@@ -79,7 +79,7 @@ img {
 }
 
 .container {
-  width: 100%;
+  width: 428px;
   padding: 0 15px;
   margin: 0 auto;
 
@@ -172,6 +172,15 @@ img {
   height: 70px;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.mobile-menu {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nav-menu {
@@ -1376,7 +1385,7 @@ page:focus::after {
   height: 100vh;
   background: var(--white, #fff);
   z-index: 200;
-  padding: 80px 0 40px 40px;
+  /*padding: 80px 0 40px 40px;*/
 
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1393,8 +1402,7 @@ page:focus::after {
 /* Mobile Navigation */
 
 .mob-menu-list {
-  margin-top: -100px;
-  margin: 0;
+  margin-top: 80px;
   padding: 0;
   display: flex;
   flex-direction: column;

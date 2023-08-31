@@ -353,6 +353,7 @@ page:focus::after {
   /*justify-content: space-between;*/
   gap: 24px;
   padding: 0;
+  justify-content: center;
 }
 
 .bg-team {
@@ -720,6 +721,11 @@ page:focus::after {
   }
 }
 
+.benefits.list {
+  display: flex;
+  gap: 72px;
+}
+
 .benefits .item {
   flex-basis: calc(100px / 2 - 30px);
 }
@@ -755,7 +761,7 @@ page:focus::after {
 .benefits .title {
   color: var(--grey, #2e2f42);
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 10px;
   line-height: 1.14;
   text-align: center;
@@ -914,6 +920,10 @@ page:focus::after {
   @media screen and (min-width: 768px) {
     padding-left: 0;
   }
+}
+
+.social-footer.list {
+  padding-left: 0;
 }
 
 .icon-item {

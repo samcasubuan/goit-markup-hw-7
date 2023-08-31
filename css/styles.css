@@ -108,6 +108,11 @@ img {
   font-weight: 500;
 }
 
+.link {
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .contacts-menu {
   margin-left: auto;
   display: flex;
@@ -117,6 +122,11 @@ img {
   @media screen and (min-width: 1158px) {
     flex-direction: row;
   }
+}
+
+.contacts-menu {
+  font-size: 12px;
+  font-family: 400;
 }
 
 .nav-menu .item:not(:last-child),
@@ -202,7 +212,7 @@ img {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .nav-menu {
@@ -214,6 +224,10 @@ img {
   @media screen and (min-width: 1158px) {
     margin-left: 80px;
   }
+}
+
+.nav-menu {
+  padding-left: 115px;
 }
 
 .nav-menu .page:hover,
@@ -721,8 +735,7 @@ page:focus::after {
   }
 }
 
-.benefits.list {
-  display: flex;
+.benefits .list {
   gap: 72px;
 }
 
@@ -774,6 +787,7 @@ page:focus::after {
 .benefits .description {
   color: var(--slate, #434455);
   font-size: 16px;
+
   font-weight: 500;
   line-height: 1.71;
 
@@ -1474,6 +1488,10 @@ page:focus::after {
   transform: translateX(0);
 }
 
+.team-social {
+  justify-items: unset;
+}
+
 /* Mobile Navigation */
 
 .mob-menu-list {
@@ -1510,6 +1528,10 @@ page:focus::after {
   /* address doesn't inherit font style */
   font-style: normal;
   margin-bottom: 32px;
+}
+
+.mobile-contact-container {
+  margin-top: 284px;
 }
 
 .mob-address {

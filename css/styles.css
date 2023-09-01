@@ -361,12 +361,10 @@ page:focus::after {
   }
 }
 
-.social-team {
-  margin-top: 8px;
+.social-media .list {
+  margin-top: 48px;
   display: flex;
-  /*justify-content: space-between;*/
-  gap: 24px;
-  padding: 0;
+  gap: 56px;
 }
 
 .bg-team {

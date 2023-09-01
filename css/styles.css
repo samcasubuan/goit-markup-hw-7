@@ -1104,11 +1104,12 @@ page:focus::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
+  text-align: center;
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;
     width: calc(264px * 2);
+    text-align: left;
   }
   @media screen and (min-width: 1158px) {
     width: 453px;

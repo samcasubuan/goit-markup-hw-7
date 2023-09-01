@@ -316,6 +316,9 @@ page:focus::after {
   @media screen and (min-width: 768px) {
   }
 }
+.hero {
+  padding: 188px 0;
+}
 
 .hero-title {
   color: white;
@@ -724,16 +727,12 @@ page:focus::after {
   margin: 0;
   flex-direction: column;
   padding: 0;
+  gap: 24px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
   }
-}
-
-.benefits.list {
-  display: flex;
-  gap: 72px;
 }
 
 .benefits .item {
@@ -989,6 +988,9 @@ page:focus::after {
     height: auto;
     width: 408px;
   }
+}
+.modal {
+  height: 588px;
 }
 
 .backdrop.is-hidden .data-modal {

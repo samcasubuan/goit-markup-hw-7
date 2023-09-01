@@ -470,6 +470,10 @@ page:focus::after {
   color: var(--navyblue);
   margin-top: 30px;
   margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
 
 .team .position {
@@ -477,6 +481,10 @@ page:focus::after {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .partners {
@@ -764,8 +772,14 @@ page:focus::after {
 
 .benefits .title {
   color: var(--grey, #2e2f42);
+
+  font-family: Roboto;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+
   margin-bottom: 10px;
   line-height: 1.14;
   text-align: center;
@@ -780,6 +794,9 @@ page:focus::after {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.71;
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.32px;
 
   @media screen and (min-width: 768px) {
     width: 356px;
@@ -824,6 +841,11 @@ page:focus::after {
   align-items: center;
   font-size: 36px;
   line-height: 1.11;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 /*2*/
@@ -924,6 +946,10 @@ page:focus::after {
   @media screen and (min-width: 768px) {
     padding-left: 0;
   }
+}
+
+.social-footer.list {
+  padding-left: 0;
 }
 
 .icon-item {

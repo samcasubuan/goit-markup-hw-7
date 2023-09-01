@@ -725,10 +725,14 @@ page:focus::after {
   margin: 0;
   flex-direction: column;
   padding: 0;
-  gap: 24px;
+
+  @media screen and (min-width: 428px) {
+    gap: 72px;
+  }
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
+    gap: 72px 24px;
     justify-content: space-between;
   }
 }
@@ -1100,7 +1104,7 @@ page:focus::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;

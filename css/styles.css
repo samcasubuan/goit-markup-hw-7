@@ -220,6 +220,7 @@ img {
   }
   @media screen and (min-width: 1158px) {
     margin-left: 80px;
+    gap: 40px;
   }
 }
 
@@ -502,6 +503,7 @@ page:focus::after {
 
   @media screen and (min-width: 1158px) {
     flex-wrap: nowrap;
+    gap: 24px;
   }
 }
 
@@ -780,6 +782,12 @@ page:focus::after {
   @media screen and (min-width: 768px) {
     text-align: left;
   }
+
+  @media screen and (min-width: 1158px) {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+  }
 }
 
 .benefits .description {
@@ -794,6 +802,9 @@ page:focus::after {
 
   @media screen and (min-width: 1158px) {
     width: 264px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
   }
 }
 
@@ -805,6 +816,7 @@ page:focus::after {
 
   @media screen and (min-width: 1158px) {
     flex-wrap: nowrap;
+    gap: 24px;
   }
 }
 
@@ -831,6 +843,12 @@ page:focus::after {
   align-items: center;
   font-size: 36px;
   line-height: 1.11;
+
+  @media screen and (min-width: 1158px) {
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 40px; /* 111.111% */
+  }
 }
 
 /*2*/
@@ -901,6 +919,10 @@ page:focus::after {
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;
+  }
+
+  @media screen and (min-width: 1158px) {
+    margin-bottom: 0;
   }
 }
 
